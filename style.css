@@ -1,15 +1,8 @@
 /* ═══════════════════════════════════════════════════════════════════════
-   FONTS — local assets (PPNeueMontreal + MajorMono)
+   FONTS — Inter (Google Fonts, SIL OFL) + MajorMono (local, SIL OFL)
    ═══════════════════════════════════════════════════════════════════════ */
-@font-face {
-  font-family: "PP"; src: url("assets/PPNeueMontreal-Book.woff2")   format("woff2"); font-weight: 400; font-display: swap;
-}
-@font-face {
-  font-family: "PP"; src: url("assets/PPNeueMontreal-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap;
-}
-@font-face {
-  font-family: "PP"; src: url("assets/PPNeueMontreal-Bold.woff2")   format("woff2"); font-weight: 700; font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap");
+
 @font-face {
   font-family: "MM"; src: url("assets/MajorMonoDisplay-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap;
 }
@@ -47,7 +40,7 @@
   --r14: 14px;
   --r20: 20px;
   /* type */
-  --sans: "PP", "Inter", system-ui, sans-serif;
+  --sans: "Inter", system-ui, sans-serif;
   --mono: "MM", "JetBrains Mono", monospace;
 }
 
