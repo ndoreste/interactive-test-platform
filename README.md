@@ -45,6 +45,8 @@ Recuento hecho sobre los datos del repositorio:
 
 Mix Test y Flashcards Mix usan un banco combinado de 1.152 preguntas, y el simulacro reutiliza los bancos de 7 asignaturas.
 
+**Origen de las preguntas:** mis propios repasos, material facilitado por el profesorado y preguntas de exámenes de cursos anteriores. Por eso el repositorio no lleva una licencia abierta: el código es mío, pero no todo el contenido lo es.
+
 ## Arquitectura
 
 ```mermaid
